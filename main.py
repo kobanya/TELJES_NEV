@@ -14,8 +14,8 @@ Adja meg a keresztnevét: Dénes
 Üdv, Kovács Dénes!
 
 '''
-vezetek = input('Adja meg a vezeték nevét: ')  # egyik változó
-kereszt = input('Adja meg a keresztnévét: ')   # másik változó
+vezetek = input('Adja meg a vezeték nevét: ').capitalize()  # egyik változó az első betűt átalakítja naggyá
+kereszt = input('Adja meg a keresztnévét: ').capitalize()   # másik változó  az első betűt átalakítja naggyá
 
 teljes_nev = vezetek + " " + kereszt  # szóköz a két változó között
 
